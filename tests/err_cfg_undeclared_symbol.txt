@@ -1,0 +1,6 @@
+N: S
+T: a
+S: S
+P:
+S -> a A
+END

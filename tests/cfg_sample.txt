@@ -1,0 +1,10 @@
+N: S A B C D
+T: a b c d
+S: S
+P:
+S -> a | b A | B | c c D
+A -> a b B | #
+B -> a A
+C -> d d C
+D -> d d d
+END

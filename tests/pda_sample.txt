@@ -1,0 +1,14 @@
+Q: q0 q1
+T: a b
+G: B z0
+q0: q0
+z0: z0
+F:
+D:
+q0 b z0 -> q0 B z0
+q0 b B -> q0 B B
+q0 a B -> q1 #
+q1 a B -> q1 #
+q1 # B -> q1 #
+q1 # z0 -> q1 #
+END

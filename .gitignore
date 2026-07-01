@@ -1,0 +1,14 @@
+build/
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.log
+*.tmp
+*.bak
+.vscode/
+.idea/
+~$*
+Thumbs.db
+desktop.ini

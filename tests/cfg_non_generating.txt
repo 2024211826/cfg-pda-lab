@@ -1,0 +1,8 @@
+N: S A B
+T: a
+S: S
+P:
+S -> A | a
+A -> B
+B -> A
+END

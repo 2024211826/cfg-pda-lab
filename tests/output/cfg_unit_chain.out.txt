@@ -1,0 +1,7 @@
+﻿Simplified CFG
+N = {S}
+T = {a, b}
+S = S
+P:
+  S -> a | b
+

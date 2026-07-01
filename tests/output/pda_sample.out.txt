@@ -1,0 +1,22 @@
+﻿Equivalent CFG generated from PDA
+N = {S, [q0,B,q0], [q0,B,q1], [q0,z0,q0], [q0,z0,q1], [q1,B,q0], [q1,B,q1], [q1,z0,q0], [q1,z0,q1]}
+T = {a, b}
+S = S
+P:
+  S -> [q0,z0,q0] | [q0,z0,q1]
+  [q0,B,q0] -> b [q0,B,q0] [q0,B,q0] | b [q0,B,q1] [q1,B,q0]
+  [q0,B,q1] -> a | b [q0,B,q0] [q0,B,q1] | b [q0,B,q1] [q1,B,q1]
+  [q0,z0,q0] -> b [q0,B,q0] [q0,z0,q0] | b [q0,B,q1] [q1,z0,q0]
+  [q0,z0,q1] -> b [q0,B,q0] [q0,z0,q1] | b [q0,B,q1] [q1,z0,q1]
+  [q1,B,q1] -> # | a
+  [q1,z0,q1] -> #
+
+Simplified CFG
+N = {S, [q0,B,q1], [q1,B,q1]}
+T = {a, b}
+S = S
+P:
+  S -> b [q0,B,q1]
+  [q0,B,q1] -> a | b [q0,B,q1] | b [q0,B,q1] [q1,B,q1]
+  [q1,B,q1] -> a
+

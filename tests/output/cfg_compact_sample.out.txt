@@ -1,0 +1,10 @@
+﻿Simplified CFG
+N = {A, B, D, S}
+T = {a, b, c, d}
+S = S
+P:
+  S -> a | a A | b | b A | c c D
+  A -> a b B
+  B -> a | a A
+  D -> d d d
+

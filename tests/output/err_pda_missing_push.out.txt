@@ -1,0 +1,2 @@
+﻿Error: bad transition line: q0 a z0 -> q0
+

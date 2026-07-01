@@ -1,0 +1,7 @@
+﻿Simplified CFG
+N = {S0}
+T = {a}
+S = S0
+P:
+  S0 -> # | a
+

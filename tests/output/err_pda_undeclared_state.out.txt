@@ -1,0 +1,2 @@
+﻿Error: next state is not in Q: q1
+
