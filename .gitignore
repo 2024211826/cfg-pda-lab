@@ -1,5 +1,6 @@
 build/
 *.exe
+!最终提交/pda_cfg.exe
 *.obj
 *.o
 *.ilk
